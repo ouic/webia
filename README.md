@@ -69,15 +69,12 @@ This repository contains the code and instructions needed to build a sophisticat
 
 1. Clone the repository:
     ```
-    git clone https://github.com/developersdigest/llm-answer-engine.git
+    git clone https://github.com/ouic/webia.git
     ```
 2. Install the required dependencies:
     ```
+    cd webia
     npm install
-    ```
-    or
-    ```
-    bun install
     ```
 3. Create a `.env` file in the root of your project and add your API keys:
     ```
@@ -91,11 +88,8 @@ This repository contains the code and instructions needed to build a sophisticat
 
 To start the server, execute:
 ```
+cd webia
 npm run dev
-```
-or
-```
-bun run dev
 ```
 
 the server will be listening on the specified port.
